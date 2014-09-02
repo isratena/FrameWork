@@ -9,7 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Google</artifactId>
+    <artifactId>Yahoo</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>FrameWork</groupId>
@@ -46,6 +47,9 @@
         <YahooAppRunner>YahooTestRunner.xml</YahooAppRunner>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
+
 
 
 

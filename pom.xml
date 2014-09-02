@@ -12,8 +12,9 @@
         <module>Generic</module>
         <module>Cnn</module>
         <module>Facebook</module>
-        <module>Google</module>
         <module>Amazon</module>
+        <module>Yahoo</module>
+
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -53,31 +54,32 @@
         <profile>
             <id>Cnn-app</id>
             <modules>
-                <module>generic</module>
+                <module>Generic</module>
                 <module>Cnn</module>
             </modules>
         </profile>
         <profile>
             <id>Facebook</id>
             <modules>
-                <module>generic</module>
+                <module>Generic</module>
                 <module>Facebook</module>
                 <!--<module>google</module>-->
                 <!--<module>Cnn</module>-->
             </modules>
         </profile>
-        <profile>
-            <id>Google</id>
-            <modules>
-                <module>generic</module>
-                <module>Google</module>
-            </modules>
-        </profile>
+
         <profile>
             <id>Amazon</id>
             <modules>
-                <module>generic</module>
+                <module>Generic</module>
                 <module>Amazon</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>Yahoo</id>
+            <modules>
+                <module>Generic</module>
+                <module>Yahoo</module>
             </modules>
         </profile>
     </profiles>

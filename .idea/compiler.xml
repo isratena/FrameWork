@@ -27,6 +27,7 @@
         <module name="Facebook" />
         <module name="Generic" />
         <module name="Google" />
+        <module name="Yahoo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +37,8 @@
       <module name="FrameWork" target="1.8" />
       <module name="Generic" target="1.8" />
       <module name="Google" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="Yahoo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

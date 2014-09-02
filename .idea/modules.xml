@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/FrameWork.iml" filepath="$PROJECT_DIR$/FrameWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Google/Google.iml" filepath="$PROJECT_DIR$/Google/Google.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yahoo/Yahoo.iml" filepath="$PROJECT_DIR$/Yahoo/Yahoo.iml" />
     </modules>
   </component>
 </project>

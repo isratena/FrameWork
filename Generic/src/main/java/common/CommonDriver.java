@@ -52,7 +52,7 @@ public class CommonDriver {
         if(browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
         }else if(browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","Generic/selenium-driver/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\mahfuzul\\Downloads\\chromedriver_win32");
             driver = new ChromeDriver();
         }else if(browser.equalsIgnoreCase("safari")){
             driver = new SafariDriver();
@@ -75,7 +75,7 @@ public class CommonDriver {
 
     //@BeforeMethod
     public void setUp(String url){
-        driver = new FirefoxDriver();
+        //driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to(url);
         driver.manage().window().maximize();

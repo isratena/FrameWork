@@ -44,6 +44,7 @@
                 <module>Facebook</module>
                 <module>Google</module>
                 <module>Amazon</module>
+                <module>Yahoo</module>
 
             </modules>
             <activation>

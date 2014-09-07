@@ -34,7 +34,7 @@
                 <configuration>
                     <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
-                        <suitXmlFile>target/test-classes/${CnnAppRunner}</suitXmlFile>
+                         <suitXmlFile>target/test-classes/${CnnAppRunner}</suitXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

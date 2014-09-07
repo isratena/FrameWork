@@ -52,12 +52,12 @@ public class CommonDriver {
         if(browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
         }else if(browser.equalsIgnoreCase("chrome")){
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\mahfuzul\\Downloads\\chromedriver_win32");
+            System.setProperty("webdriver.chrome.driver","C:/Users/mahfuzul/Downloads/chromedriver_win32/chromedriver.exe");
             driver = new ChromeDriver();
         }else if(browser.equalsIgnoreCase("safari")){
             driver = new SafariDriver();
         }else if(browser.equalsIgnoreCase("iexplore")){
-            System.setProperty("webdriver.ie.driver","Generic/selenium-driver/IEDRiverServer.exe");
+            System.setProperty("webdriver.ie.driver","C:/Users/mahfuzul/Downloads/IEDriverServer_x64/IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
@@ -75,7 +75,7 @@ public class CommonDriver {
 
     //@BeforeMethod
     public void setUp(String url){
-        //driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.navigate().to(url);
         driver.manage().window().maximize();

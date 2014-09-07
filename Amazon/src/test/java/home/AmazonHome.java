@@ -12,8 +12,8 @@ public class AmazonHome extends CommonDriver {
 
     @Test
     public void searchBox() throws InterruptedException {
-        typeByCss("#twotabsearchtextbox", "iphone");
-        clickByXpath("//*[@id='nav-searchbar']/div[1]/input");
+        typeByXpath("//*[@id='twotabsearchtextbox']", "iphone");
+        clickByCss(".nav-submit-input");
         sleep(3);
     }
 }

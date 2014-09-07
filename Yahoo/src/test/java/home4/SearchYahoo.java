@@ -13,6 +13,6 @@ public class SearchYahoo  extends CommonDriver {
     {
         typeByXpath("//*[@id='p_13838465-p']", "Bangladesh");
         clickByXpath("//*[@id='search-submit']");
-        sleep(3);
+        sleep(2);
     }
 }

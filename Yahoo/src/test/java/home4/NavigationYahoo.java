@@ -15,23 +15,18 @@ public class NavigationYahoo  extends CommonDriver {
     @Test
 
     public void test1() throws InterruptedException {
-        List<WebElement> tab = getWebElements("#default-p_30345789 li");
+        List<WebElement> tab = getWebElements(".navlist li");
+        System.out.println(tab.size());
         for (int i = 2; i < tab.size(); i++) {
-//           if (i == 2 || i == 8 || i == 9) {
-            if (i <= 6) {
 
-                tab.get(i).findElement(By.tagName("a")).click();
-                navigateBack();
-                sleep(2);
-            } else {
-                tab.get(i).findElement(By.tagName("a")).click();
-                navigateBack();
-                sleep(2);
-            }
-
-            tab = getWebElements("#default-p_30345789 li");
+            tab.get(i).click();
+            driver.navigate().back();
+            sleep(3);
+            tab = getWebElements(".navlist li");
         }
 
+
     }
+
 }
 

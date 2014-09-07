@@ -10,7 +10,7 @@ import java.util.List;
  * Created by israt on 8/23/2014.
  */
 public class TvPrograms extends CommonDriver {
-    @Test
+   // @Test
     public void dropDownMenuTvProgram(){
         // List<WebElement> list = getWebElements(".tvPrograms select option");
         // WebElement element = getWebElement(".tvPrograms>select");

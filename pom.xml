@@ -48,6 +48,7 @@
                 <module>Cnn</module>
                 <module>Facebook</module>
                 <module>Amazon</module>
+                <module>Yahoo</module>
 
             </modules>
             <activation>

@@ -11,7 +11,7 @@
 
     <test  name= "Amazon Navigation tab">
         <classes>
-            <!--<class name="home.AmazonHome"/>-->
+            <class name="home.AmazonHome"/>
             <!--<class name="search1.Search1"/>-->
         </classes>
 

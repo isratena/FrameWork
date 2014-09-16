@@ -1,8 +1,9 @@
 package home1;
 
 import common.CommonDriver;
-import org.junit.Test;
+
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
 
 /**
 * Created by israt on 8/22/2014.

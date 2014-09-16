@@ -5,7 +5,7 @@
     <parameter name="useSauceLabs" value="false"/>
     <parameter name="OS" value="Windows 8.1"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="37"/>
+    <parameter name="browserVersion" value="36"/>
     <parameter name="userName" value="isratena"/>
     <parameter name="key" value="f845035b-d212-4bcf-b16c-5fb5a3e4f650"/>
 

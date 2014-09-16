@@ -33,7 +33,7 @@ public class CommonDriver {
     @Parameters({"url", "useSauceLabs","OS","browserName","browserVersion","userName","key"})
     @BeforeMethod
     public void setUp(@Optional("http://www.cnn.com")String url,@Optional("false") boolean useSauceLabs, @Optional("Windows 7")
-    String OS,@Optional("firefox")String browserName,@Optional("30")String browserVersion,@Optional("rahmanww") String userName,@Optional("e45ab198-cbcb-4f8f-89b9-639b0894e0bf")String key)throws IOException {
+    String OS,@Optional("chrome")String browserName,@Optional("30")String browserVersion,@Optional("rahmanww") String userName,@Optional("e45ab198-cbcb-4f8f-89b9-639b0894e0bf")String key)throws IOException {
 
         if(useSauceLabs==true)   {
             //run on SauceLabs
@@ -88,9 +88,7 @@ public class CommonDriver {
     //helper methods
 
     //type
-    public void typeByCss(String locator, String value){
-        driver.findElement(By.cssSelector(locator)).sendKeys(value);
-    }
+    public void typeByCss(String locator, String value){driver.findElement(By.cssSelector(locator)).sendKeys(value);}
     public void typeByXpath(String locator, String value){
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }

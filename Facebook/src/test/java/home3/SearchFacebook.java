@@ -21,16 +21,17 @@ public class SearchFacebook extends CommonDriver {
         typeByCss("#pass", "hereugo");
         enterKeys("#pass");
         sleep(3);
-        clickByXpath("//*[@id='pagelet_welcome_box']/div/div/div/div[2]/a[1]");
-        clickByXpath("//*[@id='u_jsonp_2_3']/a[4]");
-        List<WebElement> friends = driver.findElements(By.xpath("//div['@class=fsl fwb fcb']/a"));
-        //List<WebElement> tab = getWebElements("#cnn_hdr-nav li")
-        System.out.println("Tatal friends-->" + friends.size());
-       // WebElement lastFriend = friends.get(friends.size() - 1);
-//        Action act = new Action(Driver);
-//        act.moveToElement(lastFriend).build().perform();
-//    }
-sleep(3);
-
-    }
-}
+    }}
+//        clickByXpath("//*[@id='pagelet_welcome_box']/div/div/div/div[2]/a[1]");
+//    clickByXpath("//*[@id='u_jsonp_6_3']/a[4]");
+//    // List<WebElement> friends = driver.findElements(By.xpath("//div['@class=fsl fwb fcb']/a"));
+//    //List<WebElement> tab = getWebElements("#cnn_hdr-nav li")
+//    // System.out.println("Tatal friends-->" + friends.size());
+//    // WebElement lastFriend = friends.get(friends.size() - 1);
+////        Action act = new Action(Driver);
+////        act.moveToElement(lastFriend).build().perform();
+////    }
+//    sleep(5);
+//
+//}
+//}

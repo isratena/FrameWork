@@ -8,11 +8,11 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 /**
- * Created by israt on 8/31/2014.
- */
+* Created by israt on 8/31/2014.
+*/
 public class NavigationYahoo  extends CommonDriver {
 
-    @Test
+   // @Test
 
     public void test1() throws InterruptedException {
         List<WebElement> tab = getWebElements(".navlist li");

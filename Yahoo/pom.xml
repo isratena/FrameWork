@@ -34,10 +34,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.17</version>
                 <configuration>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     <suiteXmlFiles>
                         <suiteXmlFile>target/test-classes/${YahooAppRunner}</suiteXmlFile>
                     </suiteXmlFiles>
-                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+
                 </configuration>
             </plugin>
         </plugins>
@@ -47,6 +48,7 @@
         <YahooAppRunner>YahooTestRunner.xml</YahooAppRunner>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
 
 
